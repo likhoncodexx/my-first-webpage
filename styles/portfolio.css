@@ -18,9 +18,9 @@
 .btn{
     background-color: #FD6E0A;
     border: none;
-    padding:18px 35px;
+    padding:25px 15px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color:#FFFFFF;
     cursor: pointer;
@@ -43,10 +43,11 @@ color: #757575;
 header{
     background-color: #FFF8F3;
     background: url("/images/developer.png") , url("/images/header_bg.png"), #FFF8F3;
-    background-position: 23px 38px,bottom right;
+    background-position: 23px -5px,bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
-}
+   }
+
 nav{
     width: 71%;
     max-width: 1140px;
@@ -67,7 +68,6 @@ nav .menu a{
     text-decoration: none;
  }
  #banner{
-    /* border: 1px solid blue; */
     margin: 47px 38px 0 230px;
     display:flex;
     justify-content: space-between;
@@ -76,6 +76,11 @@ nav .menu a{
  #banner .banner-content {
     max-width: 585px;
  }
+ #banner .banner-content .btn-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
  #banner .banner-content h2 {
     font-size: 45px;
     font-weight: 600;
